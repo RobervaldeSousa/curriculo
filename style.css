@@ -146,10 +146,11 @@ h3 {
     text-transform: uppercase;
 }
 
-.churrasqueiro {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.portifolio {
+    text-decoration: none;
+    color: #077607;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
 .servente {
@@ -160,7 +161,7 @@ h3 {
 
 .servente-bold {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #4d4a4a;
 }
 
@@ -187,3 +188,10 @@ h3 {
     text-decoration: none;
     color: #077607;
 }
+
+@media (max-width: 790px) {
+    .contato-abilidades, .resumo-formacao {
+        width: 100%;
+    }
+
+}    
